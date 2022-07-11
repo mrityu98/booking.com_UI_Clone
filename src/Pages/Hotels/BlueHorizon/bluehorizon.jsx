@@ -14,7 +14,6 @@ import { faHeart } from '@fortawesome/free-regular-svg-icons'
 import { faShareNodes } from '@fortawesome/free-solid-svg-icons'
 import { faTag } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
-import Dummy from '../../../Components/dummy'
 import TravelBar from '../../../Components/TravelBar/travelBar'
 import GreenBar from '../../../Components/GreenBar/greenBar'
 import Health from '../../../Components/Health/health'
@@ -107,7 +106,7 @@ export default function BlueHorizon() {
         <Mail/>
         <Before/>
         <Footer/>
-  <Dummy/>
+ 
         </div>
       </div>
     )

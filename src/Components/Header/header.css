@@ -72,6 +72,9 @@
    cursor: pointer;
    border:none;
    padding: 5px 10px;
+   height: 4em;
+   width: 8em;
+   font-size: 0.9em;
  }
  .headerSearchItem{
     display: flex;

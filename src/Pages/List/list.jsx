@@ -3,7 +3,6 @@ import {format} from "date-fns";
 import { DateRange } from 'react-date-range';
 import {useLocation } from 'react-router-dom'
 import Before from '../../Components/Before/before'
-import Dummy from '../../Components/dummy'
 import Footer from '../../Components/Footer/footer'
 import Header from '../../Components/Header/header'
 import Mail from '../../Components/Mail/mail'
@@ -365,7 +364,7 @@ export default function List() {
         <Mail/>
         <Before/>
         <Footer/>
-        <Dummy/>
+       
         </div>
         
        

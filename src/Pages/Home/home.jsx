@@ -8,7 +8,6 @@ import Nexttrip from '../../Components/Nexttrip/nexttrip';
 import Explore from '../../Components/Explore/explore'
 import Other from '../../Components/Other/other'
 import Inspiration from '../../Components/Inspiration/inspiration'
-import Dummy from '../../Components/dummy'
 import Covid from '../../Components/Covid/covid'
 import Save from '../../Components/Save/save'
 import Discount from '../../Components/Discount/discount'
@@ -52,7 +51,7 @@ export default function Home() {
             <Mail/>
             <Before/>
             <Footer/>
-            <Dummy/>
+            
           </div>
         </div>
       
