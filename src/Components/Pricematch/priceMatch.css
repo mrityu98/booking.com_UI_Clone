@@ -1,0 +1,15 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4f4ff;
+    font-style: italic;
+    width: 16.5em;
+    border-radius: 3px;
+}
+.text{
+    font-style: italic;
+}
+.container{
+  padding: 0.5em;  
+}

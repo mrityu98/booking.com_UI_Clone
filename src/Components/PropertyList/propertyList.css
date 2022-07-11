@@ -1,0 +1,38 @@
+.slick-arrow.slick-prev,.slick-arrow.slick-next{
+    background-color:black;
+    border-radius: 60%;
+    padding: 0px;
+    transform: scale(1.0);
+    
+}
+.slick-arrow.slick-prev.slick-disabled,.slick-arrow.slick-next.slick-disabled{
+    background-color: white;
+}
+.slick-list {
+    width: 1024px;
+}
+.propertyList{
+    margin:auto;
+    display:flex;
+}
+.propertyListItem{
+    border-radius: 1px;
+    cursor: pointer;
+    overflow: hidden;
+   width:185px;
+   height:250px;
+   
+}
+.propertyListImg{
+    width:180px;
+    object-fit: cover;
+    height: 180px;
+}
+.propertyListTitle > h1{
+font-size: 1.1em;
+
+}
+.propertyListTitle > h2{
+    font-size: 0.9em;
+    font-weight:300;
+    }

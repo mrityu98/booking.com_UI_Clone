@@ -1,0 +1,20 @@
+.itemBox{
+    display: flex;
+    justify-content: center;
+    background-color: #e4f4ff;
+    gap: 1px;
+    border-bottom: 1px solid rgb(109, 109, 171);
+}
+.item{
+color: rgb(15, 74, 97);
+background-color:#e4f4ff;
+padding: 0.8em 4em;
+}
+.item > span{
+    color: #004cb8;
+    font-weight: 400;
+    cursor: pointer;
+}
+.item>span:hover{
+    color:  rgb(211, 111, 29);;
+}

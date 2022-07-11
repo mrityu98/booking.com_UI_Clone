@@ -1,0 +1,133 @@
+.leftList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1.4em;
+}
+.body{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.list{
+    display: flex;
+    margin: auto;
+}
+.descBox{
+    display: flex;
+    flex-direction: column;
+}
+.descChild1{
+    display: flex;
+    justify-content: space-between;
+}
+.descChild2{
+    display: flex;
+    justify-content: space-between;
+}
+.activity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13em;
+}
+.location{
+    display:flex;
+    align-items: center;
+}
+#type{
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+    padding: 0px 1px;
+}
+#issue{
+    color:green;
+    background-color: #97e59c;
+    border-radius: 1px;
+    padding: 0px 1px;
+    font-size: 0.9em;
+}
+.location > span > h2{
+    margin-left: 0.3em;
+    margin-right: 0.9em;
+}
+.activity > div > button{
+width:7em;
+height: 3em;
+border-radius:3px ;
+color:white;
+background-color: #0071c2;
+}
+.activity > div > button:hover{
+    background-color: rgb(27, 50, 140);
+}
+.svg-inline--fa fa-heart{
+    transform: scale(1.7);
+    fill: #0071c2;
+}
+.svg-inline--fa fa-share-nodes{
+    transform: scale(1.7);
+    fill:#0071c2;
+}
+#address{
+    display: block;
+}
+a{
+    margin-left: 0em;
+    font-weight: 700;
+    color: #0071c2;
+}
+#text{
+    font-style: italic;
+}
+.svg-inline--fa fa-location-dot{
+    transform: scale(1.5);
+    margin-right: 0.5em;
+}
+.large{
+    display: flex;
+    justify-content: space-between;
+}
+.small{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -0.9em;
+
+}
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+.img1 , .img1 > img{
+    width:19.4em;
+    height: 11.5em;
+    margin-bottom: 1em;
+}
+.minilarge{
+    display: flex;
+    flex-direction: column;
+}
+.img2,.img2 >img{
+    height: 24em;
+    width: 33em;
+}
+.img3,.img3 > img{
+    height: 10em;
+    width: 13em;
+    margin-top: 0.2em;
+}
+.info{
+    margin-top: 2.49em;
+    margin-bottom: 2em;
+}
+.activityIcon{
+    transform: scale(1.7);
+    color: #0071c2;
+}
+.locationIcon{
+    transform: scale(1.0);
+    color: #0071c2;
+    margin-right: 0.3em;
+}

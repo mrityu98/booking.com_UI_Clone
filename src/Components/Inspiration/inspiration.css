@@ -1,0 +1,55 @@
+
+.inspiration{
+    width: 1024px;
+    display: flex;
+   flex-direction: column;
+   
+    
+}
+.inspirationOne{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+    height: 315px;
+}
+.inspirationTwo{
+    display:flex;
+    gap:15px;
+    height: 300px;
+    margin-top: 15px;
+}
+.inspirationItem{
+    border-radius: 3px;
+    cursor: pointer;
+    overflow: hidden;
+    flex:1;
+    position: relative;
+}
+.inspirationItem>img:hover{
+    transform: scale(1.2);
+}
+.inspirationImg1{
+    width:100%;
+    object-fit: cover;
+    height: 315px;
+}
+.inspirationImg2{
+    width:100%;
+    object-fit: cover;
+    height: 300px;
+}
+.inspirationTitle{
+    position: absolute;
+    color:white;
+    bottom:5px;
+    left: 8px;
+}
+.inspirationTitle > h1{
+    font-size: 1.1em;
+    
+}
+.inspirationTitle > h2{
+        font-size: 0.9em;
+        font-weight:300;
+        
+}

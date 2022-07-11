@@ -1,0 +1,74 @@
+.searchBox{
+    background-color:#febb02 ;
+    width: 264px;
+    height: 426px;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.searchBoxContainer > h2{
+    font-weight: 500;
+    margin-top:-2px;
+}
+.searchBoxContainer{
+    padding-top:12px;
+    padding-left:20px;
+}
+
+.searchBoxLabels{
+    display: block;
+    font-size: 14px;
+}
+.searchinput1{
+    height: 3em;
+    width: 16.29em;  
+}
+.searchinput2{
+    height: 3em;
+    width: 15.7em; 
+    margin-top:9px; 
+}
+.searchinput1::placeholder{
+    color: black; 
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.searchinput2::placeholder{
+    color: black; 
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.searchdate{
+    height: 3em;
+    width: 16em;
+}
+#searchTick{
+    margin-left:0px;
+    margin-top: 0.7em;
+    width: 1.3em;
+    height: 1.3em;
+}
+#searchBoxBtn{
+width: 89.3%;
+background-color:#004cb8;
+color: white;
+font-size: 1em;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-top: 0.7em;
+border-radius: 4px;
+cursor: pointer;
+}
+#searchBoxBtn:hover{
+    background-color: #003580; 
+}
+.labelContainer{
+    margin-bottom: 2px;
+}
+h3{
+    margin-left:0.55em;
+  }
+  input[type="checkbox"]{
+    width: 22px; /*Desired width*/
+    height: 22px; /*Desired height*/
+  }

@@ -1,0 +1,122 @@
+.resultTitle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -0.1em;
+}
+.map{
+    width: 12em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('http://rafikisafari.com/wp/wp-content/plugins/so-widgets-bundle/widgets/google-map/assets/map-consent-background.jpg');
+
+}
+.map >button {
+width: 8.5em;
+margin: 0px 39px;
+padding: 10px 8px;
+background-color:#0071c2 ;
+color: white;
+border-radius: 4px;
+}
+.map > button:hover{
+    background-color: #003580;
+}
+.resultParent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+}
+.resultItem{
+    display: flex;
+    padding: 1em;
+    
+}
+a{
+    color:#0071c2;
+    margin-left: 1em;
+}
+.spangap{
+margin-left: 0.3em;
+}
+#seconda{
+    margin-left: 0.3em;
+}
+.itemDesc>a>h1{
+margin-left:0.5em;
+}
+
+.resultDesc{
+    margin-left: 1em;
+    padding: 0em;
+}
+.itemDesc{
+    width: 39em;
+}
+.Rating{
+    margin-top: 1.7em;
+    width: 8.2em;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -1.2em;
+    cursor: pointer;
+}
+
+.resultRatings{
+    display: flex;
+    flex-direction: column;
+}
+.resultCat{
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-left: 0.2em;
+    margin-right: 0.3em;
+}
+.resultReview{
+    width: 5em;
+    font-size: 0.8em;
+    white-space: nowrap;
+    margin-top: 0.4em;
+    margin-left: 1.6em;
+}
+.resultPrices{
+width: 8.5em;
+margin: 18px;
+padding: 10px 8px;
+background-color:#0071c2 ;
+color: white;
+border-radius: 4px;
+}
+.resultPrices:hover{
+    background-color: #003580; 
+}
+.resultRating{
+    color:white;
+    background-color: #003580;
+    font-weight: bold;
+    border-radius: 2px;
+    height: 3em;
+    
+}
+.resultTitle > h3{
+    font-size: 2em;
+}
+.outer{
+    border:1px solid #898c8a;
+    border-radius: 2px;
+    margin-bottom: 2em;
+}
+.itemDesc > span{
+    margin-left: 1em;
+}
+.itemDesc >h1{
+cursor: pointer;
+}
+.itemDesc>a>h1:hover{
+    color: rgb(211, 111, 29);
+    }
+.resultImg{
+    cursor: pointer;
+}
+

@@ -1,0 +1,32 @@
+.before{
+    width:100%;
+    background-color: #043273;
+    margin-top:-30px;
+}
+.beforeBtn{
+    display: flex;
+    justify-content: center;
+    padding:25px;
+    border-bottom: 2px solid white;
+}
+.beforeBtn > button{
+    padding: 5px 18px;
+    border-radius: 6px;
+    border: 2px solid white;
+    background-color: #043273;
+    color:white;
+}
+.beforeBtn > button:hover{
+    background-color: rgb(52, 114, 168);
+}
+.beforeList > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.beforeList > ul > li{
+padding-right: 19px;
+}
+.beforeList > ul > li >a{
+    color: white;
+    }

@@ -1,0 +1,31 @@
+.reasons{
+    display: flex;
+    flex-direction: column;
+    width:71em;
+    margin-top: 1em;
+}
+.iconContainer1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.iconContainer2{
+    display: flex;
+    justify-content: flex-start;
+}
+.reasonTitle{
+    font-size: 1.5em;
+    margin-left: -0.7em;
+
+}
+.item1 >span,.item2>span{
+    font-size: 1.3em;
+    margin-left: 0.6em;
+}
+.reasonIcon{
+    transform: scale(1.7);
+    padding: 4px;
+    background-color: rgb(193, 211, 220);
+    border-radius: 5px;
+}
+

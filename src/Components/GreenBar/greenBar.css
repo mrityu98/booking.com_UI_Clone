@@ -1,0 +1,32 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: #d5f1d6;
+    border: 2px solid darkgreen;
+    width: 71em;
+    margin-top: 1em;
+}
+.lock{
+    display: flex;
+    align-items: center;
+}
+.svg-inline--fa fa-unlock-keyhole{
+    transform: scale(1.5);
+    margin-left: 1em;
+}
+.lock >h5{
+    margin-left: 1em;
+    font-size: 1.1em;
+}
+.greenInfo > span{
+    margin-left: 2.9em;
+}
+.greenInfo{
+    margin-top: -1.8em;
+    margin-bottom: 1.4em;
+}
+.unlockicon{
+    transform: scale(1.5);
+    color: darkgreen;
+    margin-left: 1em;
+}

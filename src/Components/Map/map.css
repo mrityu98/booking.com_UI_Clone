@@ -1,0 +1,9 @@
+.map{
+    width: 12em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('http://rafikisafari.com/wp/wp-content/plugins/so-widgets-bundle/widgets/google-map/assets/map-consent-background.jpg');
+
+}

@@ -1,0 +1,24 @@
+.icon{
+    display: flex;
+    border: 2px solid #e7e7e7;
+    align-items: center;
+}
+.img,.img >img{
+    width: 3em;
+    height: 3em;
+    margin-right: 4em;
+    margin-left: 0.4em;
+}
+.desc >h5{
+    font-size: 1em;
+    margin-left: -2.7em;
+    margin-bottom: 4.3px;
+}
+.desc > span{
+    
+    margin: -0.4em 1.5em 1.3em -2.7em;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+}

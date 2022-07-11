@@ -1,0 +1,53 @@
+
+.listContainer{
+    display: flex;
+    width: 1167px;
+    margin:auto;
+    gap:1em;
+}
+.leftList{
+display: flex;
+flex-direction: column;
+margin-top: 2.5em;
+}
+
+
+.filterDiv{
+    border: 1px solid #949494;
+    padding-bottom: 1.1em;
+    display: flex;
+    flex-direction: column;
+}
+#filter{
+   display: inline-block;
+   margin-left:0.2em;
+   padding-top: 2px;
+}
+input[type="checkbox"]{
+    width: 22px; /*Desired width*/
+    height: 22px; /*Desired height*/
+  }
+  .collection{
+    display: flex;
+    margin-left:0.4em;
+  }
+  h3{
+    margin-left:0.55em;
+  }
+  .filterBoxContainer{
+   width:16.6em;
+  }
+ .reviewBox{
+  display: flex;
+ 
+ }
+ .reviewBoxLower{
+ display: flex;
+ flex-direction: column;
+}
+.reviewBoxLower>p{
+ font-size: 13px;
+ margin-top: 0.1em;
+}
+ 
+ 

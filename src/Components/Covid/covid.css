@@ -1,0 +1,23 @@
+.covidRoot{
+width: 1024px;
+border: 1px solid #e7e7e7;
+margin-top: 8px;
+}
+
+.covidChild{
+margin-right: 15px;
+display:flex;
+flex-wrap: wrap;
+align-items: center;
+padding: 10px;
+}
+.covidImg{
+    margin-left: 10px;
+}
+.covidImg > img{
+    height: 40px;
+    margin-top: 5px;
+}
+.covidTitle{
+    margin-left: 10px;
+}

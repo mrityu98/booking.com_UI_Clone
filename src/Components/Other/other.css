@@ -1,0 +1,29 @@
+.otherList{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    height: 415px;
+    
+}
+.otherListItem{
+    border-radius: 3px;
+    cursor: pointer;
+    overflow: hidden;
+    flex:1;
+    height: 415px;
+}
+.otherListImg{
+    width:310px;
+    object-fit: contain;
+    height: 310px;
+}
+
+.otherListTitle > h1{
+font-size: 1.1em;
+
+}
+.otherListTitle > h2{
+    font-size: 0.9em;
+    font-weight:300;
+    }

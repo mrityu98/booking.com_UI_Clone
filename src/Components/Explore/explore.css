@@ -1,0 +1,37 @@
+.slick-arrow.slick-prev,.slick-arrow.slick-next{
+    background-color:black;
+    border-radius: 60%;
+}
+.slick-arrow.slick-prev.slick-disabled,.slick-arrow.slick-next.slick-disabled{
+    background-color: white;
+}
+.slick-list {
+    width: 1024px;
+    margin-right: -1em;
+}
+
+.exploreList{
+    margin:auto;
+    display:flex;
+    
+}
+.exploreListItem{
+    border-radius: 1px;
+    cursor: pointer;
+    overflow: hidden;
+   width:185px;
+   height:250px;
+}
+.exploreListImg{
+    width:180px;
+    object-fit: cover;
+    height: 180px;
+}
+.exploreListTitle > h1{
+    font-size: 1.1em;
+    
+}
+.exploreListTitle > h2{
+        font-size: 0.9em;
+        font-weight:300;
+}
